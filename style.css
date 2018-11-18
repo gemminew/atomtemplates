@@ -1,0 +1,107 @@
+.bookbackdrop{
+    background-image: url("img/stabbedbooks.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    margin-bottom: 450px;
+}
+
+.shriveled{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.secret-top-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 8px;
+}
+
+.right-border{
+    border-right: 3px;
+    border-right-color: #ddd;
+    border-right-style: solid;
+    
+}
+
+.vl {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+    border: 2px solid #ddd;
+    height: 175px;
+
+}
+
+.bookcard {
+    position: absolute;
+}
+.card {
+    border-radius: 0.5em;
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.section {
+    padding: 15px;
+}
+
+.ribbonwithshadow{
+    background-color: #fff; 
+    box-shadow: 0 0 6px 2px darkgrey; 
+    margin-top: 5px;
+    border-radius: 0.5em;
+    padding: 10px;
+}
+ 
+
+:root{
+    --primary:wheat;
+    --secondary:#29B6F6;
+    --terciary:#B2EBF2;
+}
+
+nav{
+    padding: 0 10px 0 10px;
+    background-color: var(--primary);
+}
+
+nav .right{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+
+
+.nav-wrapper form{
+    margin: auto;
+    width: 50%;
+}
+
+.nav-wrapper .input-field{
+    padding-top: 7px;
+}
+
+.nav-wrapper form #search{
+    height: 50px;
+}
+
+
+.hidden{
+    display: none;
+}
+
+.alert{
+    margin: 15px;
+}
+
+
+nav .right {
+    margin: 15px;
+}

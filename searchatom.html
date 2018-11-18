@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Starter Template - Materialize</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+
+<body>
+
+            <h5><div class="row">
+                <div class="input-field col s12">
+                    <a href="#" class="btn waves-effect waves-light col s12">Search</a>
+                </div>
+            </div> </h5>     
+        <div id="register-page" class="row">
+            <div class="col s12 z-depth-6 card-panel">
+                <form class="register-form">        
+                    <div class="row margin">
+                        <div class="input-field col s12">
+                            <i class="mdi-social-person-outline prefix"></i>
+                            <input id="user_name" type="text" class="validate">
+                            <label for="user_name" class="center-align">First Name</label>
+                        </div>
+                    </div>
+                    <div class="row margin">
+                            <div class="input-field col s12">
+                                <i class="mdi-social-person-outline prefix"></i>
+                                <input id="user_name" type="text" class="validate">
+                                <label for="user_name" class="center-align">Surname</label>
+                            </div>
+                        </div>
+                    <div class="row margin">
+                        <div class="input-field col s12">
+                            <i class="mdi-communication-email prefix"></i>
+                            <input id="user_email" type="email" class="validate">
+                            <label for="mail" class="center-align">Postcode</label>
+                        </div>
+                    </div>
+                    <div class="row margin">
+                        <div class="input-field col s12">
+                            <i class="mdi-action-lock-outline prefix"></i>
+                            <input id="user_passw" type="password" class="validate">
+                            <label for="phone">Mobile</label>
+                        </div>
+                    </div>
+                    <br>
+                    <li><div class="divider"></div></li>
+                        <a class="btn-floating modal-trigger halfway-fab waves-effect waves-light red" data-target="modal-book"><i class="material-icons">add</i></a>
+                    </div>
+                    <div id="modal-book" class="modal modal-fixed-footer">
+                            <div class="modal-content">
+                                <div class="row">
+                                    <div class="col s12 m6">
+                    
+                                    <h3>Title of book</h3>
+                    
+                                              <table class="striped" style="width: 100%">
+                                                <tr>
+                                                  <td>Autor:</td>
+                                                  <td>Mr. Bean</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Año:</td>
+                                                  <td>2010</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Editorial:</td>
+                                                  <td>Dan's Publishing Co.</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Idioma:</td>
+                                                  <td>Inglés</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Categoría</td>
+                                                  <td>Acción</td>
+                                                </tr>
+                                              </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            <div class="modal-footer">
+                              <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+                            </div>
+                          </div>
+                    <table class="centered">
+                            <thead>
+                              <tr>
+                                  <th>Name</th>
+                                  <th>Surname</th>
+                                  <th>Age</th>
+                              </tr>
+                            </thead>
+                    
+                            <tbody>
+                              <tr>
+                                <td>John</td>
+                                <td>Smith</td>
+                                <td>47</td>
+                              </tr>
+                              <tr>
+                                <td>Daniel</td>
+                                <td>Thorne</td>
+                                <td>27</td>
+                              </tr>
+                              <tr>
+                                <td>John</td>
+                                <td>Smith...en?</td>
+                                <td>less that 50</td>         
+                              </tr>
+                            </tbody>
+                          </table>
+                         
+                </form>
+            </div>
+        </div>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/init.js"></script>
+
+<script>
+        $(document).ready(function() {
+          $('.modal').modal();
+        });
+      </script>
+
+</body>
+</html>
